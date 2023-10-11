@@ -3,7 +3,7 @@ const mysql = require('mysql');
 
 // MySQLに接続するための設定
 const connection = mysql.createConnection({
-  host: 'mysql-57-centos7-667dc6579d-8hqw5', // ホスト名変更
+  host: '10.244.0.6', // ホスト名変更
   user: 'USER', // ユーザー名
   password: 'password', // パスワード
   database: 'ezpoc' // データベース名
