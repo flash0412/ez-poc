@@ -3,10 +3,10 @@ const mysql = require('mysql');
 
 // MySQLに接続するための設定
 const connection = mysql.createConnection({
-  host: 'localhost', // ホスト名
-  user: 'root', // ユーザー名
+  host: 'mysql-57-centos7-667dc6579d-8hqw5 ', // ホスト名変更
+  user: 'USER', // ユーザー名
   password: 'password', // パスワード
-  database: 'test' // データベース名
+  database: 'ezpoc' // データベース名
 });
 
 // MySQLに接続する
