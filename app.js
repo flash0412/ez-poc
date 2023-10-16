@@ -23,7 +23,7 @@ connection.connect((err) => {
 });
 
 // データベースからデータを取得する例
-connection.query('SELECT * FROM テーブル名', (err, results) => {
+connection.query('SELECT * FROM test', (err, results) => {
   if (err) {
     console.error('クエリエラー: ' + err.stack);
     return;
