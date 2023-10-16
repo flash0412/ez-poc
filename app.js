@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
   host: mysqlHost,
   user: mysqlUser,
   password: mysqlPassword,
-  database: mysqlDatabase
+  database: "test"
 });
 
 connection.connect((err) => {
